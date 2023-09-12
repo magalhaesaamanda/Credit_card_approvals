@@ -16,7 +16,7 @@ Build a machine learning model to predict if an applicant is 'good' or 'bad' cli
 
 ### Content & Explanation
 There're two tables could be merged by ID:
-|       application_record.csv|           ||
+#### application_record.csv
 | Feature name       | Explanation          | Remarks                                             |
 |:------------------:|:---------:|:---------:|
 | ID                 | Client number         |                                                     |
@@ -39,9 +39,10 @@ There're two tables could be merged by ID:
 | CNT_FAM_MEMBERS    | Family size           |                                              |
 
 
-|credit_record.csv|           |	
+#### credit_record.csv
+|Feature name	|Explanation	|Remarks|
 |:------------------:|:---------:|	
 |Feature name	|Explanation	Remarks|
 |ID	|Client number|	
-|MONTHS_BALANCE|	Record month	The month of the extracted data is the starting point, backwards, 0 is the current month, -1 is the previous month, and so on|
-|STATUS	|Status	0: 1-29 days past due 1: 30-59 days past due 2: 60-89 days overdue 3: 90-119 days overdue 4: 120-149 days overdue 5: Overdue or bad debts, write-offs for more than 150 days C: paid off that month X: No loan for the month|
+|MONTHS_BALANCE|	Record month|	The month of the extracted data is the starting point, backwards, 0 is the current month, -1 is the previous month, and so on|
+|STATUS	|Status |	0: 1-29 days past due 1: 30-59 days past due 2: 60-89 days overdue 3: 90-119 days overdue 4: 120-149 days overdue 5: Overdue or bad debts, write-offs for more than 150 days C: paid off that month X: No loan for the month|
