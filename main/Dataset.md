@@ -16,10 +16,9 @@ Build a machine learning model to predict if an applicant is 'good' or 'bad' cli
 
 ### Content & Explanation
 There're two tables could be merged by ID:
-|       application_record.csv|           | |
-|:------------------:|:---------:|:---------:|
+|       application_record.csv|           ||
 | Feature name       | Explanation          | Remarks                                             |
-| ------------------ | -------------------- | --------------------------------------------------- |
+|:------------------:|:---------:|:---------:|
 | ID                 | Client number         |                                                     |
 | CODE_GENDER        | Gender               |                                                     |
 | FLAG_OWN_CAR       | Is there a car       |                                                     |
